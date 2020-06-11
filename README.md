@@ -3,7 +3,7 @@
 REQUIREMENTS: Python 3, NLTK, Flask, ngrok
 
 To run the project, clone this repo.
-In project directory, create pickled_files.
+In project directory, mkdir pickled_files.
 Fire up Python3, run an instance of object from NaiveBayes. 
 Run the train() and store_pickle() methods of NaiveBayes.
 OR, check and run train.py.
@@ -26,11 +26,9 @@ If you have weird issues, run the following (fixed for Ajay):
 Copy the https fowarding URL.
 
 Go to Dialogflow > Fulfillment.
-Under URL, paste the URL from ngrok AND append "/webhook".
-    Example: https://randgenurl.ngrok.io/webhook  
+Under URL, paste the URL from ngrok AND append "/webhook".  
+    Example: https://randomgenurl.ngrok.io/webhook  
 
-The application can now be tested in the Dialogflow Fulfillment Test Console to the left of the URL field, or for a nicer view do the following:
-
-    Go to Integrations, scroll down to Text Based, turn on the Web Demo, click on it and follow the URL.
+The application can now be tested in the Dialogflow Fulfillment Test Console to the left of the URL field, or for a nicer view go to Integrations, scroll down to Text Based, turn on the Web Demo, click on it and follow the URL.
 
 
