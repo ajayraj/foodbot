@@ -2,10 +2,10 @@
 
 REQUIREMENTS: Python 3, NLTK, Flask, ngrok
 
-To run the project, clone this repo.
-In project directory, mkdir pickled_files.
-Fire up Python3, run an instance of object from NaiveBayes. 
-Run the train() and store_pickle() methods of NaiveBayes.
+To run the project, clone this repo.  
+In project directory, mkdir pickled_files.  
+Fire up Python3, run an instance of object from NaiveBayes.  
+Run the train() and store_pickle() methods of NaiveBayes.  
 OR, check and run train.py.
 
 Make sure Dialogflow is set up correctly for use.
